@@ -33,6 +33,8 @@ Benefits of using JsonPowerDB : -Nimble, Simple to use, In Memory, Real-time DBM
 
 Micro Project code:
 
+
+
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -40,36 +42,33 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html lang="en">
-  <head>
+     <head>
+    
     <title>Micro Project</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
-  </head>
-  <body>
+    </head>
+    <body>
     <div class="container">
       <h2>Student Enrollment Form </h2>
       <form id="stuForm" method="post">
         <div class="form-group">
           <span
-            ><label for="stuId">Roll-No:</label> <label id="stuIdMsg"> </label
-          ></span>
-
-          <input
-            type="text"
+            ><label for="stuId">Roll-No:</label> <label id="stuIdMsg"> </label></span>
+          
+          <input type="text"
             class="form-control"
             onchange="getStu()"
             name="stuId"
             id="stuId"
             placeholder="Enter Roll-No"
-            required
-          />
+            require/>
         </div>
 
         <div class="form-group">
