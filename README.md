@@ -33,16 +33,14 @@ Benefits of using JsonPowerDB : -Nimble, Simple to use, In Memory, Real-time DBM
 
 Micro Project code:
 
-
-
-<!DOCTYPE html>
+`<!DOCTYPE html>`
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html lang="en">
-     <head>
+`<html lang="en">`
+`<head>`
     
     <title>Micro Project</title>
     <meta charset="utf-8" />
@@ -305,5 +303,5 @@ and open the template in the editor.
         resetForm();
       }
     </script>
-  </body>
-</html>
+    </body>
+    </html>
